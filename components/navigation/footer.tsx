@@ -88,20 +88,6 @@ export default function Footer() {
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
             &copy; {new Date().getFullYear()} CertExams Inc. All rights reserved.
           </p>
-          <div className="flex flex-wrap justify-center md:justify-end gap-4 text-sm text-gray-400">
-            <Link href="#" className="hover:text-secondary transition-colors duration-300">
-              Privacy Policy
-            </Link>
-            <Link href="#" className="hover:text-accent transition-colors duration-300">
-              Terms of Service
-            </Link>
-            <Link href="#" className="hover:text-secondary transition-colors duration-300">
-              Refund Policy
-            </Link>
-            <Link href="#" className="hover:text-accent transition-colors duration-300">
-              FAQ
-            </Link>
-          </div>
         </div>
       </div>
     </footer>

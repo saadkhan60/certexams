@@ -52,13 +52,6 @@ export default function Header() {
               <X className="h-6 w-6" />
             </button>
             <div className="flex flex-col md:flex-row items-center justify-center h-full md:h-auto space-y-8 md:space-y-0 md:space-x-8">
-            <Link
-                href="/"
-                className="text-black hover:text-accent transition-colors duration-300"
-                onClick={() => setIsMenuOpen(false)}
-              >
-               Home
-              </Link>
               <Link
                 href="/#about"
                 className="text-black hover:text-accent transition-colors duration-300"
