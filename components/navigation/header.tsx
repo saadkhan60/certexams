@@ -29,29 +29,29 @@ export default function Header() {
           <div className="relative w-48 h-12">
             <div className="relative w-32 h-12">
               <Link href="/">
-            <Image
-              src="/logo.png"
-              alt="Certexams"
-              fill
-              className="object-contain"
-              priority
-            />
+                <Image
+                  src="/logo.png"
+                  alt="Certexams"
+                  fill
+                  className="object-contain"
+                  priority
+                />
               </Link>
-          </div>
+            </div>
           </div>
 
           <nav
             className={`
-            fixed md:relative top-0 right-0 h-screen md:h-auto w-full md:w-auto
-            bg-white md:bg-transparent transform transition-transform duration-300 ease-in-out
-            ${isMenuOpen ? "translate-x-0" : "translate-x-full md:translate-x-0"}
-            md:flex md:items-center md:space-x-8
-          `}
+              fixed lg:relative top-0 right-0 h-screen lg:h-auto w-full lg:w-auto
+              bg-white lg:bg-transparent transform transition-transform duration-300 ease-in-out
+              ${isMenuOpen ? "translate-x-0" : "translate-x-full lg:translate-x-0"}
+              lg:flex lg:items-center lg:space-x-8
+            `}
           >
-            <button className="md:hidden absolute top-6 right-6 text-black" onClick={() => setIsMenuOpen(false)}>
+            <button className="lg:hidden absolute top-6 right-6 text-black" onClick={() => setIsMenuOpen(false)}>
               <X className="h-6 w-6" />
             </button>
-            <div className="flex flex-col md:flex-row items-center justify-center h-full md:h-auto space-y-8 md:space-y-0 md:space-x-8">
+            <div className="flex flex-col lg:flex-row items-center justify-center h-full lg:h-auto space-y-8 lg:space-y-0 lg:space-x-8">
               <Link
                 href="/#about"
                 className="text-black hover:text-accent transition-colors duration-300"
@@ -81,17 +81,17 @@ export default function Header() {
                 Success Stories
               </Link>
               <Button>
-              <Link
-                href="/contact"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Contact
-              </Link>
+                <Link
+                  href="/contact"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  Contact
+                </Link>
               </Button>
             </div>
           </nav>
 
-          <button className="md:hidden text-black" onClick={() => setIsMenuOpen(true)}>
+          <button className="lg:hidden text-black" onClick={() => setIsMenuOpen(true)}>
             <Menu className="h-6 w-6" />
           </button>
         </div>

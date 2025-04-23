@@ -11,7 +11,7 @@ export default function Hero() {
       <div className="container mx-auto px-4 pt-12 pb-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="relative z-10 space-y-8">
-            <div className="inline-block bg-primary/10 px-4 py-2 rounded-full">
+            <div className="md:inline-block bg-primary/10 px-4 py-2 rounded-full hidden">
               <span className="text-primary font-medium text-sm">*No commitment required. 100% money-back guarantee.</span>
             </div>
 
